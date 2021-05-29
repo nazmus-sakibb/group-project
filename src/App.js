@@ -4,11 +4,15 @@ import Navbar from './components/Navbar/Navbar'
 
 
 import './App.css';
+import Sidebar from './components/Sidebar/Sidebar';
+import Home from './components/Home/Home/Home';
 
 function App() {
   return (
     <div>
-     <Navbar></Navbar>
+      <Navbar></Navbar>
+      <Home/>
+      <Sidebar></Sidebar>
     </div>
   );
 }

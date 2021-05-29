@@ -1,9 +1,10 @@
 import React from 'react';
+import FeaturedHome from '../FeaturedHome/FeaturedHome';
 
 const Home = () => {
     return (
         <div>
-            <h3>This is Home Component</h3>
+            <FeaturedHome/>
         </div>
     );
 };
