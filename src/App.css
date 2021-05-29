@@ -1,43 +1,29 @@
-.container-brand {
-  width: 90%;
-  margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap');
+body{
+  background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+  font-family: 'Red Hat Display', sans-serif;
 }
 
-.button-brand {
-  background: #141471;
-  color: white;
+.progress {
+  height: .6rem;
+  border-radius: 25.5px;
 }
+.progress-bar {
+  background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
 
-.button-brand:hover {
-  background: white;
+}
+.brand-btn {
   color: #141471;
-  border: 1px solid #141471;
-}
-
-.button-secondary {
-  background: white;
-  color: #141471;
-  border: 1px solid #141471;
-}
-
-.button-secondary:hover {
-  background: #141471;
-  color: white;
-}
-
-
-/************************** UpcomingStartups **************************/
-.startups-card-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-}
-
-/************************** StartupsCardDetails **************************/
-.startups-card {
-  border: 1px solid black;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid #141471;
   border-radius: 5px;
-  padding: 20px;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 700;
 }
-
-
+.brand-btn:hover{
+  color:#fff;
+  background-color: #141471;
+}
