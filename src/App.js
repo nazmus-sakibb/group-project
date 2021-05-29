@@ -12,7 +12,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Home/>
-      <Sidebar></Sidebar>
+      {/* <Sidebar></Sidebar> */}
     </div>
   );
 }
