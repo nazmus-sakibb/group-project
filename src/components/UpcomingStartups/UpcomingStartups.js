@@ -13,6 +13,11 @@ const UpcomingStartups = () => {
         <div>
             <div className="container-brand">
                 <div className="startups-card-container">
+                    <div className="upcoming-startups py-5">
+                        <h2>Upcoming</h2>
+                        <h2>Startups</h2>
+                        <p>These visionary companies and disruptors are on their journey to change the world.</p>
+                    </div>
                     {
                         startupsCards.map(startupsCard => <StartupsCardDetails startupsCard={startupsCard} />)
                     }
