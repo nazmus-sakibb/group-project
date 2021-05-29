@@ -1,16 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import upcomingStartupsCard from '../../../components/fakeData/home.json';
+import StartupsCardDetails from '../StartupsCardDetails/StartupsCardDetails';
 
 const UpcomingStartups = () => {
-    const [startupsCard, setStartupsCard] = useState([]);
+    const [startupsCards, setStartupsCards] = useState([]);
 
     useEffect( () => {
-        setStartupsCard(upcomingStartupsCard);
+        setStartupsCards(upcomingStartupsCard);
     }, [])
 
     return (
         <div>
-            <h2>Upcoming Startups: {startupsCard.length}</h2>
+            <h2>Upcoming Startups: {startupsCards.length}</h2>
+            {
+                startupsCards.map(startupsCard => <StartupsCardDetails startupsCard={startupsCard}/>)
+            }
         </div>
     );
 };
