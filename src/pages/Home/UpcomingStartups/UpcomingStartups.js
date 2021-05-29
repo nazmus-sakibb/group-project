@@ -5,16 +5,19 @@ import StartupsCardDetails from '../StartupsCardDetails/StartupsCardDetails';
 const UpcomingStartups = () => {
     const [startupsCards, setStartupsCards] = useState([]);
 
-    useEffect( () => {
+    useEffect(() => {
         setStartupsCards(upcomingStartupsCard);
     }, [])
 
     return (
         <div>
-            <h2>Upcoming Startups: {startupsCards.length}</h2>
-            {
-                startupsCards.map(startupsCard => <StartupsCardDetails startupsCard={startupsCard}/>)
-            }
+            <div className="container-brand">
+                <div className="startups-card-container">
+                    {
+                        startupsCards.map(startupsCard => <StartupsCardDetails startupsCard={startupsCard} />)
+                    }
+                </div>
+            </div>
         </div>
     );
 };

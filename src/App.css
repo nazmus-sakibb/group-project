@@ -1,4 +1,43 @@
+.container-brand {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.button-brand {
+  background: #141471;
+  color: white;
+}
+
+.button-brand:hover {
+  background: white;
+  color: #141471;
+  border: 1px solid #141471;
+}
+
+.button-secondary {
+  background: white;
+  color: #141471;
+  border: 1px solid #141471;
+}
+
+.button-secondary:hover {
+  background: #141471;
+  color: white;
+}
+
+
+/************************** UpcomingStartups **************************/
+.startups-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
 /************************** StartupsCardDetails **************************/
 .startups-card {
   border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
 }
+
+
