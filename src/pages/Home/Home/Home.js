@@ -1,6 +1,6 @@
 import React from 'react';
-import FeaturedHome from '../FeaturedHome/FeaturedHome';
-import UpcomingStartups from '../UpcomingStartups/UpcomingStartups';
+import FeaturedHome from '../../../components/FeaturedHome/FeaturedHome';
+import UpcomingStartups from '../../../components/UpcomingStartups/UpcomingStartups';
 
 const Home = () => {
     return (
