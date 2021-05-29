@@ -1,3 +1,4 @@
+import React from "react";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 import './App.css';
@@ -6,18 +7,22 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Navbar from './Components/Navbar/Navbar'
+import Navbar from './components/Navbar/Navbar';
 import Home from './Pages/Home/Home';
+import Incubator from "./Pages/Incubator/Incubator";
 
 function App() {
   return (
     <Router>
       <Navbar></Navbar>
-     <Switch>
-        <Route  path='/'>
-            <Home></Home>
+      <Switch>
+        <Route exact path='/'>
+          <Home></Home>
         </Route>
-     </Switch>
+        <Route path='/incubator'>
+          <Incubator></Incubator>
+        </Route>
+      </Switch>
     </Router>
   );
 }

@@ -5,10 +5,10 @@ import UpcomingStartups from '../UpcomingStartups/UpcomingStartups';
 const FeaturedArea = () => {
     return (
         <section className="features">
-            <div className="container">
+            <div>
                 <div className="row">
-                 <FeaturedStartups></FeaturedStartups>  
-                <UpcomingStartups></UpcomingStartups>
+                    <FeaturedStartups></FeaturedStartups>
+                    <UpcomingStartups></UpcomingStartups>
                 </div>
             </div>
         </section>

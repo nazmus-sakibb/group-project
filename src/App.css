@@ -27,3 +27,25 @@ body{
   color:#fff;
   background-color: #141471;
 }
+
+
+.container-brand {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+/******************** Incubator ********************/
+.incubator-bar {
+  background-color: white;
+  color: black;
+  margin-top: 40px;
+}
+
+
+.incubator-container {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+}
