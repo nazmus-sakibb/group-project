@@ -21,7 +21,7 @@ const FeaturedStartups = () => {
 
     return (
         <div>
-            <div className="container-brand container my-5">
+            <div className="my-5">
                 <div className="startups-card-container row ">
                     <div className="upcoming-startups col-md-3 py-5 text-white">
                         <h2>Featured</h2>

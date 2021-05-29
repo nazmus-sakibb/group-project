@@ -1,13 +1,13 @@
 import React from 'react';
-import HomeBanner from '../../Components/HomeBanner/HomeBanner';
-import HomeBody from '../../Components/HomeBody/HomeBody';
+import HomeBody from '../../components/HomeBody/HomeBody';
+import HomeBanner from '../../components/HomeBanner/HomeBanner';
 
 const Home = () => {
     return (
-        <>
+        <div>
           <HomeBanner></HomeBanner> 
           <HomeBody></HomeBody> 
-        </>
+        </div>
     );
 };
 
