@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import upcomingStartupsCard from '../../fakeData/home.json';
+import upcomingStartupsCard from '../../../components/fakeData/home.json';
 
 const UpcomingStartups = () => {
     const [startupsCard, setStartupsCard] = useState([]);
