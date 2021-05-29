@@ -11,7 +11,6 @@ const UpcomingStartups = () => {
     return (
         <div>
             <h2>Upcoming Startups: {startupsCard.length}</h2>
-            <h2>Upcoming Startups: {startupsCard.length}</h2>
         </div>
     );
 };
