@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import Sidebar from '../../components/Sidebar/Sidebar';
-import incubatorData from '../../components/fakeData/incubator.json';
+import Sidebar from '../../Components/Sidebar/Sidebar';
+import incubatorData from '../../Components/fakeData/incubator.json';
 
 const Incubator = () => {
-    const [incubators, setIncubators] = useState([]);
+  
+  const [incubators, setIncubators] = useState([]);
 
 
     useEffect(() => {
@@ -62,7 +63,7 @@ const Incubator = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-3">{/* <Sidebar/> */}</div>
+          <div className="col-md-3"><Sidebar></Sidebar></div>
           <div className="col-md-9">
             <div className="incubator-container">
               <div className="about-startup-container p-4">

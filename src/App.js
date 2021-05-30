@@ -9,20 +9,24 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Navbar from './components/Navbar/Navbar';
-import Incubator from "./pages/Incubator/Incubator";
-import Home from "./pages/Home/Home";
+import Navbar from './Components/Navbar/Navbar';
+import Incubator from "./Pages/Incubator/Incubator";
+import Home from "./Pages/Home/Home";
+import LearnPage from "./Pages/LearnPage/LearnPage";
 
 function App() {
   return (
     <Router>
       <Navbar></Navbar>
       <Switch>
-        <Route exact path='/'>
-          <Home></Home>
-        </Route>
         <Route path='/incubator'>
           <Incubator></Incubator>
+        </Route>
+        <Route path='/learnPage'>
+         <LearnPage></LearnPage>
+        </Route>
+        <Route exact path='/'>
+          <Home></Home>
         </Route>
       </Switch>
     </Router>
