@@ -2,6 +2,7 @@ import React from 'react';
 import { AiOutlineTwitter } from 'react-icons/ai'
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
+import './Sidebar.css'
 
 const Sidebar = () => {
     return (
