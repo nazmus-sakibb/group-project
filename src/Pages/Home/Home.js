@@ -4,10 +4,10 @@ import HomeBanner from '../../components/HomeBanner/HomeBanner';
 
 const Home = () => {
     return (
-        <div>
-          <HomeBanner></HomeBanner> 
-          <HomeBody></HomeBody> 
-        </div>
+      <div>
+        <HomeBanner></HomeBanner>
+        <HomeBody></HomeBody>
+      </div>
     );
 };
 

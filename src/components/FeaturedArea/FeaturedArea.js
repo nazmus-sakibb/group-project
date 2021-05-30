@@ -1,5 +1,6 @@
 import React from 'react';
 import FeaturedStartups from '../FeaturedStartups/FeaturedStartups';
+import FeaturedSupport from '../FeaturedSupport/FeaturedSupport';
 import UpcomingStartups from '../UpcomingStartups/UpcomingStartups';
 
 const FeaturedArea = () => {
@@ -8,6 +9,7 @@ const FeaturedArea = () => {
             <div>
                 <div className="row">
                     <FeaturedStartups></FeaturedStartups>
+                    <FeaturedSupport/>
                     <UpcomingStartups></UpcomingStartups>
                 </div>
             </div>
