@@ -29,7 +29,6 @@ const UpcomingStartups = () => {
             ))}
           </div>
         </div>
-        <button className="btn btn-primary">Load More</button>
       </div>
     );
 };
