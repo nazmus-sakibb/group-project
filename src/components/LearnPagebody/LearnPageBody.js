@@ -4,11 +4,25 @@ import CourseSlider from './CourseSlider';
 
 
 const LearnPageBody = () => {
-    
+
 
     return (
         <div className="learn-page-container">
-            <CourseSlider></CourseSlider>
+            <div className="container">
+                <div className="title text-white">
+                    <h2>My Courses</h2> 
+                </div>
+                <CourseSlider></CourseSlider>
+            </div>
+            <div className="container mt-5">
+                <div className="title f-title text-white">
+                    <h2>Featured Courses</h2> 
+                </div>
+                <CourseSlider></CourseSlider>
+            </div>
+            <div className="text-center mt-5">
+              <button className="brand-btn">Learn More</button>
+            </div>
         </div>
     );
 };

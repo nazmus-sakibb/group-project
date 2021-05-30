@@ -2,7 +2,7 @@
     {
     "id":1,
     "courseName": "Intro to Blockchain",
-    "coursecourseSubTitle": "Blockchain Cryptocurrency Fundamentals",
+    "courseSubTitle": "Blockchain Cryptocurrency Fundamentals",
     "modulesCompletion": "8.3/10 Modules",
     "completionRate": 83,
     "modules": [

@@ -1,13 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Sidebar from '../../Components/Sidebar/Sidebar';
-<<<<<<< HEAD
 import incubatorData from '../../Components/fakeData/incubator.json';
-=======
 import upcomingStartupsCard from '../../Components/fakeData/home.json';
-import incubatorData from '../../Components/fakeData/incubator.json';
 import IncubatorSliderBar from '../../Components/IncubatorSlideBar/IncubatorSliderBar';
 import Slider from "react-slick";
->>>>>>> b3711e3d41a5b0b5af645ca2bb94a0fd0b0ad2b7
 
 const Incubator = () => {
   
@@ -46,13 +42,10 @@ const Incubator = () => {
 
 
         <div className="row">
-<<<<<<< HEAD
           <div className="col-md-3"><Sidebar></Sidebar></div>
-=======
           <div className="col-md-3">
             <Sidebar/>
           </div>
->>>>>>> b3711e3d41a5b0b5af645ca2bb94a0fd0b0ad2b7
           <div className="col-md-9">
             <div className="incubator-container">
               <div className="about-startup-container p-4">

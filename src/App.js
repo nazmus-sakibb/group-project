@@ -11,10 +11,7 @@ import {
 import Navbar from './Components/Navbar/Navbar';
 import Incubator from "./Pages/Incubator/Incubator";
 import Home from "./Pages/Home/Home";
-<<<<<<< HEAD
 import LearnPage from "./Pages/LearnPage/LearnPage";
-=======
->>>>>>> b3711e3d41a5b0b5af645ca2bb94a0fd0b0ad2b7
 
 function App() {
   return (
@@ -25,6 +22,9 @@ function App() {
           <Incubator></Incubator>
         </Route>
         <Route path='/learnPage'>
+         <LearnPage></LearnPage>
+        </Route>
+        <Route path='/userDashboard/:id'>
          <LearnPage></LearnPage>
         </Route>
         <Route exact path='/'>
