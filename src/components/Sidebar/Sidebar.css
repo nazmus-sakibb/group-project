@@ -1,9 +1,7 @@
 .sidebar {
     /* background-image: linear-gradient(40deg, #19d3ae,#0fcfec); */
     background-color: #fff;
-    width: 255px;
-    margin-top: 20px;
-    margin-right: 20px;
+    min-width: 290px;
 }
 
 .sidebar li {
