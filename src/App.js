@@ -11,13 +11,10 @@ import {
 import Incubator from "./Pages/Incubator/Incubator";
 import Home from "./Pages/Home/Home";
 import LearnPage from "./Pages/LearnPage/LearnPage";
-<<<<<<< HEAD
 import UserDashboard from './Components/UserDashboard/UserDashboard'
 import CourseItems from "./Components/UserDashboard/CourseItems";
-=======
 import Navbar from './components/Navbar/Navbar';
 
->>>>>>> b1daa20c6158810af73f07e919bf70ec482fbc4f
 function App() {
   return (
     <Router>
