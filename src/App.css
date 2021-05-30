@@ -42,7 +42,8 @@ body{
 .incubator-bar {
   background-color: white;
   color: black;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 /************************** Home Background Color **************************/
 .home-background{
@@ -53,7 +54,6 @@ body{
 .incubator-container {
   background-color: white;
   color: black;
-  margin-top: 20px;
 }
 
 /************************** Learn Page container style **************************/

@@ -1,10 +1,32 @@
 import React, { useEffect, useState } from 'react';
 import Sidebar from '../../Components/Sidebar/Sidebar';
+<<<<<<< HEAD
 import incubatorData from '../../Components/fakeData/incubator.json';
+=======
+import upcomingStartupsCard from '../../Components/fakeData/home.json';
+import incubatorData from '../../Components/fakeData/incubator.json';
+import IncubatorSliderBar from '../../Components/IncubatorSlideBar/IncubatorSliderBar';
+import Slider from "react-slick";
+>>>>>>> b3711e3d41a5b0b5af645ca2bb94a0fd0b0ad2b7
 
 const Incubator = () => {
   
   const [incubators, setIncubators] = useState([]);
+
+
+    const [startupsCards, setStartupsCards] = useState([]);
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay:true
+      };
+
+    useEffect(() => {
+        setStartupsCards(upcomingStartupsCard);
+    }, [])
 
 
     useEffect(() => {
@@ -13,57 +35,24 @@ const Incubator = () => {
 
     return (
       <div className="container-brand">
-        <div className="incubator-bar p-3">
-          <div className="row">
-            <div className="col-md-3">
-              <img src="https://i.ibb.co/861bq82/mangoswap-ico.png" alt="" />
-              <h3 className="m-0 pt-2 d-inline">
-                <strong>Mangoswap</strong>
-              </h3>
-            </div>
-            <div className="col-md-3">
-              <div className="d-flex justify-content-between">
-                <div>
-                  <p className="m-0">Funds raised</p>
-                </div>
-                <div>
-                  <p className="m-0">
-                    <small>50% complete</small>
-                  </p>
-                </div>
-              </div>
-              <p className="m-0">
-                <strong>$200,000/$400,000</strong>
-              </p>
-            </div>
-            <div className="col-md-3 pt-3">
-              <div className="progress mb-4">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  style={{ width: "50%" }}
-                  aria-valuenow="50"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-            <div className="col-md-3">
-              <button
-                style={{
-                  background:
-                    "linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%)",
-                  border: "none",
-                }}
-                className="btn text-white btn-center rounded-0 mt-1 px-4"
-              >
-                Fund Startups
-              </button>
-            </div>
-          </div>
+
+        <div className="incubator-bar rounded">
+          <Slider {...settings}>
+                    {
+                        startupsCards.map(startupsCard => <IncubatorSliderBar startupsCard={startupsCard} />)
+                    }
+            </Slider>
         </div>
+
+
         <div className="row">
+<<<<<<< HEAD
           <div className="col-md-3"><Sidebar></Sidebar></div>
+=======
+          <div className="col-md-3">
+            <Sidebar/>
+          </div>
+>>>>>>> b3711e3d41a5b0b5af645ca2bb94a0fd0b0ad2b7
           <div className="col-md-9">
             <div className="incubator-container">
               <div className="about-startup-container p-4">
