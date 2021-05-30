@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Sidebar from '../../components/Sidebar/Sidebar';
-import incubatorData from '../../components/fakeData/incubator.json';
+import Sidebar from '../../Components/Sidebar/Sidebar';
+import incubatorData from '../../Components/fakeData/incubator.json';
 
 const Incubator = () => {
     const [incubators, setIncubators] = useState([]);
