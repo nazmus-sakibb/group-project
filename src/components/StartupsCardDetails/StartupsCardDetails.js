@@ -2,6 +2,7 @@ import React from 'react';
 import './StartupsCardDetails.css'
 
 const StartupsCardDetails = (props) => {
+  
     const {icon, title, shortDescription, fundStatus, fundCompletation, fundAmount } = props.startupsCard;
 
     return (
