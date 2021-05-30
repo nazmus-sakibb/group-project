@@ -45,7 +45,6 @@ const Incubator = () => {
           <div className="col-md-3">
             <Sidebar/>
           </div>
-          <div className="col-md-3"><Sidebar/></div>
           <div className="col-md-9">
             <div className="incubator-container">
               <div className="about-startup-container p-4">
