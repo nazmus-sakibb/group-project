@@ -30,7 +30,8 @@ const Incubator = () => {
 
     return (
       <div className="container-brand">
-        <div className="mt-4">
+
+        <div className="incubator-bar rounded">
           <Slider {...settings}>
                     {
                         startupsCards.map(startupsCard => <IncubatorSliderBar startupsCard={startupsCard} />)
