@@ -104,3 +104,10 @@ body{
   width: 60%;
   left:24%;
 }
+
+.week-card{
+  background-image: url(./images/week-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
