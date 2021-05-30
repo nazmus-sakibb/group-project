@@ -32,7 +32,7 @@ const IncubatorSlideBar = (props) => {
                         "linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%)",
                     border: "none",
                     }}
-                        className="btn text-white btn-center rounded-0 mt-1 px-4"
+                        className="btn text-white btn-center rounded-0 px-4"
                     >
                         Fund Startups
                     </button>
