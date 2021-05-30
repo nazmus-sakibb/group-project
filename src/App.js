@@ -1,19 +1,31 @@
+import React from "react";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
-import Navbar from './components/Navbar/Navbar'
-
-
 import './App.css';
 // import Sidebar from './components/Sidebar/Sidebar';
-import Home from './pages/Home/Home/Home';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Navbar from './components/Navbar/Navbar';
+import Incubator from "./pages/Incubator/Incubator";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar></Navbar>
-      <Home/>
-      {/* <Sidebar></Sidebar> */}
-    </div>
+      <Switch>
+        <Route exact path='/'>
+          <Home></Home>
+        </Route>
+        <Route path='/incubator'>
+          <Incubator></Incubator>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
