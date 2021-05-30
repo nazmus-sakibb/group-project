@@ -8,10 +8,10 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Navbar from './Components/Navbar/Navbar';
 import Incubator from "./Pages/Incubator/Incubator";
 import Home from "./Pages/Home/Home";
 import LearnPage from "./Pages/LearnPage/LearnPage";
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
