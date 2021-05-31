@@ -11,9 +11,9 @@ import {
 import Incubator from "./Pages/Incubator/Incubator";
 import Home from "./Pages/Home/Home";
 import LearnPage from "./Pages/LearnPage/LearnPage";
-import UserDashboard from './Components/UserDashboard/UserDashboard'
-import CourseItems from "./Components/UserDashboard/CourseItems";
-import Navbar from './Components/Navbar/Navbar';
+import UserDashboard from './components/UserDashboard/UserDashboard'
+import CourseItems from "./components/UserDashboard/CourseItems";
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (

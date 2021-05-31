@@ -1,6 +1,6 @@
 import React from 'react';
-import HomeBanner from './../../Components/HomeBanner/HomeBanner';
-import HomeBody from './../../Components/HomeBody/HomeBody';
+import HomeBanner from './../../components/HomeBanner/HomeBanner';
+import HomeBody from './../../components/HomeBody/HomeBody';
 
 const Home = () => {
     return (
