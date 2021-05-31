@@ -1,7 +1,7 @@
 import React from 'react';
-import LearnBanner from '../../Components/LearnBanner/LearnBanner';
-import LearnPageBody from '../../Components/LearnPagebody/LearnPageBody';
-import SearchCourse from '../../Components/SearchCourse/SearchCourse';
+import LearnBanner from '../../components/LearnBanner/LearnBanner';
+import LearnPageBody from '../../components/LearnPagebody/LearnPageBody';
+import SearchCourse from '../../components/SearchCourse/SearchCourse';
 
 const LearnPage = () => {
     return (
