@@ -15,16 +15,20 @@ const UserDashboard = () => {
     }, [id]);
 
     const { modules } = courses;
-    console.log(modules._id);
+    
     return (
-        <div className="learn-page-container">
+        <div className="">
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-3 learn-page-container">
                     <h3>This is sidebar</h3>
                 </div>
-                <div className=" col-md-8 px-3">
+                <div className=" col-md-9 px-3">
+                    <div className="row">
+
+                    </div>
+                    <div className="row learn-page-container">
                     {
-                        modules?.map(module => <div className="week-card w-75">
+                        modules?.map(module => <div className="week-card w-75 mb-3 mx-auto">
                             <Link to={"/courseItem/"+module._id}>
                             <div className="card-details p-4 mb-3 text-white text-center">
                                 <h3>{module.weekTitle}</h3>
@@ -36,6 +40,8 @@ const UserDashboard = () => {
                             </Link>
                         </div>)
                     }
+                    </div>
+                    
                 </div>
             </div>
         </div>

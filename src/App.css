@@ -45,7 +45,7 @@ body{
   margin-top: 30px;
   margin-bottom: 20px;
 }
-/************************** Home Background Color **************************/
+/************************** Home page **************************/
 .home-background{
   background: linear-gradient(104.61deg, #ff00a3a1 2.65%, #ff655bab 51.83%, #ffc70091 100%);
 }
@@ -111,8 +111,13 @@ body{
   background-repeat: no-repeat;
   background-position: center center;
 }
+.week-card a{
+  text-decoration: none;
+}
+.activity img{
+  height:150px;
+
 /************************** Search Course Page container style **************************/
-.searchCourse-container{
   background: #151371;
   margin-bottom: 0px;
 }
