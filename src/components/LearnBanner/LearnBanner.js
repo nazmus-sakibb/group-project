@@ -1,14 +1,11 @@
 import React from 'react';
-import worldImg from '../../images/world.png'
 import './LearnBanner.css'
 
 const LearnBanner = () => {
     return (
-      <main className="container d-flex align-items-center">
-        <div className="row">
-          <div className="col-md-7">
-            <img className="img-fluid learnBanner-img" src={worldImg} alt="" />
-          </div>
+      <div>
+        <main className="container-brand row d-flex align-items-center">
+          <div className="col-md-7 learnBanner-container"></div>
           <div className="col-md-5 course-banner">
             <div className="d-flex flex-column align-items-center ">
               <h1 className="mt-5" style={{ color: "#ffff" }}>
@@ -20,8 +17,8 @@ const LearnBanner = () => {
               </h3>
             </div>
           </div>
-        </div>
-      </main>
+        </main>
+      </div>
     );
 };
 
