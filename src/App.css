@@ -111,3 +111,6 @@ body{
   background-repeat: no-repeat;
   background-position: center center;
 }
+.week-card a{
+  text-decoration: none;
+}

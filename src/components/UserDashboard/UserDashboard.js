@@ -15,7 +15,7 @@ const UserDashboard = () => {
     }, [id]);
 
     const { modules } = courses;
-    console.log(modules._id);
+    
     return (
         <div className="learn-page-container">
             <div className="row">
