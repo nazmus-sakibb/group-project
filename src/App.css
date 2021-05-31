@@ -111,10 +111,17 @@ body{
   background-repeat: no-repeat;
   background-position: center center;
 }
+<<<<<<< HEAD
 .week-card a{
   text-decoration: none;
 }
 .activity img{
   height:150px;
 
+=======
+/************************** Search Course Page container style **************************/
+.searchCourse-container{
+  background: #151371;
+  margin-bottom: 0px;
+>>>>>>> 24b1ba0dc79868e43c27b6a79d940fd7ed9cc6d2
 }
