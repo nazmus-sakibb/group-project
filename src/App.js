@@ -14,6 +14,7 @@ import LearnPage from "./Pages/LearnPage/LearnPage";
 import UserDashboard from './components/UserDashboard/UserDashboard'
 import CourseItems from "./components/UserDashboard/CourseItems";
 import Navbar from './components/Navbar/Navbar';
+import CourseActivities from "./components/UserDashboard/CourseActivities";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route path='/courseItem/:_id'>
          <CourseItems></CourseItems>
+        </Route>
+        <Route path='/courseActivities/:__id'>
+         <CourseActivities></CourseActivities>
         </Route>
         <Route exact path='/'>
           <Home></Home>
