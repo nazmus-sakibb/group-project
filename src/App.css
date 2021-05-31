@@ -121,3 +121,47 @@ body{
   background: #151371;
   margin-bottom: 0px;
 }
+
+
+
+
+/**************************** CourseBanner.js ****************************/
+.course-banner {
+  padding: 60px 0;
+  color: white;
+}
+
+.course-banner .banner-content h2{
+  margin: 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+.course-banner .banner-content p{
+  font-size: 22px;
+}
+
+
+.banner-profile {
+  padding-left: 10%;
+}
+
+
+.banner-content {
+  padding-left: 10%;
+}
+
+
+.course-banner .banner-resume {
+  padding-left: 10%;
+  padding-top: 20px;
+}
+
+.banner-resume .button-resume {
+  background: #151371;
+  color: white;
+  font-weight: bold;
+  padding: 8px 50px;
+  border-radius: 12px;
+}

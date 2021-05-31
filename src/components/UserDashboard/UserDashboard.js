@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+import CourseBanner from '../CourseBanner/CourseBanner';
 import allcourses from '../fakeData/course.json'
 const UserDashboard = () => {
     const { id } = useParams();
@@ -24,7 +25,7 @@ const UserDashboard = () => {
                 </div>
                 <div className=" col-md-9 px-3">
                     <div className="row">
-
+                        <CourseBanner/>
                     </div>
                     <div className="row learn-page-container">
                         <div className="learn-menu mx-auto text-center">
