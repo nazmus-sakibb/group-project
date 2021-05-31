@@ -3,7 +3,7 @@ import incubatorData from '../../components/fakeData/incubator.json';
 import upcomingStartupsCard from '../../components/fakeData/home.json';
 import IncubatorSliderBar from '../../components/IncubatorSlideBar/IncubatorSliderBar';
 import Slider from "react-slick";
-import Sidebar from './../../components/Sidebar/Sidebar';
+import Sidebar from '../../components/Sidebar/Sidebar';
 
 const Incubator = () => {
   
