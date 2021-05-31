@@ -91,13 +91,13 @@ body{
   left: 183px;
   top: 20px;
 }
-.slick-next, .slick-prev {
+.learn-page-container .slick-next, .learn-page-container .slick-prev {
   top: -27px!important;
 }
-.slick-prev{
+.learn-page-container .slick-prev{
   left: 88%!important;
 }
-.slick-next {
+.learn-page-container .slick-next {
   right: 7%!important;
 }
 .f-title h2::after{

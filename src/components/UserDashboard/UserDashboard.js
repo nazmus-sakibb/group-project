@@ -27,6 +27,11 @@ const UserDashboard = () => {
 
                     </div>
                     <div className="row learn-page-container">
+                        <div className="learn-menu mx-auto text-center">
+                            <a className="active" href={"/userDashboard/"+module._id} >Modules</a>
+                            <a href={"/userDashboard/"+module._id} >Calender</a>
+                            <a href={"/userDashboard/"+module._id} >Messages</a>
+                        </div>
                     {
                         modules?.map(module => <div className="week-card w-75 mb-3 mx-auto">
                             <Link to={"/courseItem/"+module._id}>

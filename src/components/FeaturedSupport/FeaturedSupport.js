@@ -25,7 +25,7 @@ const FeaturedSupport = () => {
       <div className=" mt-5 container">
         <div className="row d-flex justify-content-center">
           {FeaturedSupportData.map((featuredSupport) => (
-            <div className="col-md-4 single-feature">
+            <div className="col-md-4 single-feature mb-3">
               <div className="feature-img">
                 <img
                   src={featuredSupport.img}
