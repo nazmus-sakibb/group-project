@@ -3,6 +3,7 @@ import { AiOutlineTwitter } from 'react-icons/ai'
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import './Sidebar.css'
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
@@ -10,10 +11,35 @@ const Sidebar = () => {
         <p>Founded 17th May, 2015</p>
         <hr />
         <small>Website</small>
-        <a href="mangoswap.com">mangoswap.com</a> 
-        <h3> <AiOutlineTwitter/> </h3>
-        <h3> <FaLinkedinIn/> </h3>
-        <h3> <FaFacebookF/> </h3>
+        <a href="mangoswap.com">mangoswap.com</a>
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0 social-menu">
+          <li className="nav-item">
+            <Link
+              className="nav-link"
+              aria-current="page"
+              to="https://twitter.com/minorityprogram"
+            >
+              <AiOutlineTwitter />
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              className="nav-link"
+              to="https://www.facebook.com/MinorityProgrammers"
+            >
+              <FaFacebookF />
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link
+              className="nav-link"
+              to="https://www.linkedin.com/company/minority-programmers/"
+            >
+              <FaLinkedinIn />
+            </Link>
+          </li>
+        </ul>
         <small>Location</small>
         <p>San Francisco, California</p>
         <small>Team Size</small>

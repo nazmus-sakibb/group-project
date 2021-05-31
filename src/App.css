@@ -111,3 +111,8 @@ body{
   background-repeat: no-repeat;
   background-position: center center;
 }
+/************************** Search Course Page container style **************************/
+.searchCourse-container{
+  background: #151371;
+  margin-bottom: 0px;
+}
