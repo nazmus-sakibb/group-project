@@ -40,7 +40,7 @@ const StartupsCardDetails = (props) => {
             </div>
             <div>
               <button className="brand-btn">Learn More</button>
-            </div>
+            </div>  
           </div>
         </div>
       </div>
