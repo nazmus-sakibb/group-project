@@ -1,6 +1,6 @@
 import React from 'react';
-import LearnBanner from '../../components/LearnBanner/LearnBanner';
-import LearnPageBody from './../../components/LearnPagebody/LearnPageBody';
+import LearnBanner from '../../Components/LearnBanner/LearnBanner';
+import LearnPageBody from './../../Components/LearnPagebody/LearnPageBody';
 
 const LearnPage = () => {
     return (
