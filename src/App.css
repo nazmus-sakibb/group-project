@@ -116,8 +116,10 @@ body{
 }
 .activity img{
   height:150px;
+}
 
 /************************** Search Course Page container style **************************/
-  background: #151371;
+.searchCourse-container{
+    background: #151371;
   margin-bottom: 0px;
 }
