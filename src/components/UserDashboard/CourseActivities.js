@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import CourseSidebar from '../CourseSidebar/CourseSidebar';
 import courseActivities from '../fakeData/courseActivities.json'
-import './UserDashboard.css'
+import './UserDashboard.css';
 
 const CourseActivities = () => {
     const { __id } = useParams();
